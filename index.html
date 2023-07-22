@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src=" https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    />
+  </head>
+  <body onload="startAuto()">
+    <header>
+      <nav class="container navigation">
+        <div class="logo">
+         <input type="text" placeholder="search" class="search-bar">
+         <a href="#"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="search-btn">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
+         </svg>
+         </a>
+        </div>
+        <button onclick="dark()" class="drk ">Dark</button>
+
+        <div class="nav-links">
+          <ul>
+            <li><a href="#" class="sites">HOME</a></li>
+            <li><a href="#ABOUT" class="sites">ABOUT</a></li>
+            <li><a href="#EDUCATION" class="sites">EDUCATION</a></li>
+            <li><a href="#CONTACT" class="sites">CONTACT</a></li>
+        
+          </ul>
+        </div>
+      </nav>
+      <div class="header-content">
+    
+    <h1>Hi, I'm Saksham</h1>
+      <h2>A Web Developer</h2>
+    
+        <p>If you are looking for a dedicated and enthusiastic web developer who
+          is always eager to learn and grow. I'm HERE.</br>
+          Web Developer by day and Gamer by night.</p>
+          <h3 id="appointment">To book an appointment, Register below</h3>
+          <a href="#">Register</a>
+      </div>
+    </header>
+    <section class="container">
+      <div class="section-heading" id="ABOUT">
+        <div class="animate">
+          <div class="about-info">
+            <h1 >ABOUT ME</h1>
+            <div class="span-cont">
+              <span class="text first-text">I'm a </span>
+              <span class="text sec-text"></span>
+            </div>
+          </div>
+         <div class="anime"></div>
+        </div>
+        <!-- <h1 onmouseover="mOver(this)" onmouseout="mOut(this)">ABOUT ME</h1> -->
+        <p>
+          Hello! I am an aspiring web developer with a strong passion for
+          continuous learning. Currently pursuing a B.E. in Computer Science and
+          Engineering from GCET Jammu, I am eager to expand my knowledge and
+          skills in the field of web development. With a solid foundation in
+          programming languages like C, C++ and Java. Moreover, I am well-versed
+          in web development technologies such as HTML, CSS, JavaScript, and
+          jQuery, enabling me to create engaging and interactive user
+          experiences.
+        </p>
+        <p>
+          I am constantly seeking new challenges and opportunities to enhance my
+          expertise. Through self-motivation and a drive for excellence, I am
+          committed to staying updated with the latest industry trends and best
+          practices. I am eager to contribute my skills and work collaboratively
+          in a dynamic team environment.
+        </p>
+        <p>
+          If you are looking for a dedicated and enthusiastic web developer who
+          is always eager to learn and grow, I would be thrilled to connect with
+          you. Let's collaborate and create impactful digital solutions
+          together.
+        </p>
+      </div>
+      <div class="wrapper">
+        <div class="carousel owl-carousel">
+          <div class="card card-1"><img src="img1.jpg"></div>
+          <div class="card card-2"><img src="img3.jpg"></div>
+          <div class="card card-3"><img src="img4.jpg"></div>
+          <div class="card card-4"><img src="img5.jpg"></div>
+          <div class="card card-5"><img src="img6.jpg"></div>
+        </div>
+      </div>
+      <div class="s">
+        <div class="a">
+          <div class="box box-1 "></div>
+          <div class="box box-2"></div>
+          <div class="box box-3"></div>
+          <div class="box box-4"></div>
+          <div class="box box-5"></div>
+          <!-- <div class="box box-6">6</div>
+          <div class="box box-7">7</div>
+          <div class="box box-8">8</div>
+          <div class="box box-9">9</div>
+          <div class="box box-10">10</div> -->
+        </div>
+        <div class="section-heading education" id="EDUCATION">
+          <h1 class="ed">EDUCATION</h1>
+        <!-- <h1 onclick="chnagefn()" id="heading-edu">EDUCATION</h1> -->
+        <div class="education-context">
+         <div class="showbtn"> 
+          <div class="show-more">
+            <h2><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="arr-right">
+            <path fill-rule="evenodd" d="M3.75 12a.75.75 0 01.75-.75h13.19l-5.47-5.47a.75.75 0 011.06-1.06l6.75 6.75a.75.75 0 010 1.06l-6.75 6.75a.75.75 0 11-1.06-1.06l5.47-5.47H4.5a.75.75 0 01-.75-.75z" clip-rule="evenodd" />
+           </svg>
+            Early Years at ASN Higher Secondary School:</h2>
+           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="icons ">
+            <path fill-rule="evenodd" d="M12.53 16.28a.75.75 0 01-1.06 0l-7.5-7.5a.75.75 0 011.06-1.06L12 14.69l6.97-6.97a.75.75 0 111.06 1.06l-7.5 7.5z" clip-rule="evenodd" />
+           </svg>
+        </div>
+          
+           <p class="answer active"> My educational voyage began at ASN Higher Secondary School, where I completed my 12th grade. It was a transformative period where I gained valuable academic knowledge and developed essential life skills. Through the school's comprehensive curriculum, I was exposed to various subjects, broadening my horizons and nurturing my thirst for knowledge. I am proud to say that I achieved an impressive 86% in my 12th-grade examinations, a testament to my dedication and hard work.</p>
+            </div>
+              
+
+            <div class="showbtn"><div class="show-more">
+              <h2><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="arr-right">
+                <path fill-rule="evenodd" d="M3.75 12a.75.75 0 01.75-.75h13.19l-5.47-5.47a.75.75 0 011.06-1.06l6.75 6.75a.75.75 0 010 1.06l-6.75 6.75a.75.75 0 11-1.06-1.06l5.47-5.47H4.5a.75.75 0 01-.75-.75z" clip-rule="evenodd" />
+              </svg>Formative Years at BSF School:</h2><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="icons ">
+                <path fill-rule="evenodd" d="M12.53 16.28a.75.75 0 01-1.06 0l-7.5-7.5a.75.75 0 011.06-1.06L12 14.69l6.97-6.97a.75.75 0 111.06 1.06l-7.5 7.5z" clip-rule="evenodd" />
+              </svg>
+              
+            </div>
+            
+            <p class="answer active">Before my high school education, I attended BSF School, where I completed my 10th grade. This institution laid a strong foundation for my academic journey, instilling discipline and a love for learning. The school's nurturing environment and dedicated faculty played a vital role in my personal and intellectual growth. It was during these years that I discovered my passion for computer science, paving the way for my future studies and career aspirations.</p>
+          </div>
+         
+         <div class="showbtn"> <div class="show-more">
+          <h2><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="arr-right">
+            <path fill-rule="evenodd" d="M3.75 12a.75.75 0 01.75-.75h13.19l-5.47-5.47a.75.75 0 011.06-1.06l6.75 6.75a.75.75 0 010 1.06l-6.75 6.75a.75.75 0 11-1.06-1.06l5.47-5.47H4.5a.75.75 0 01-.75-.75z" clip-rule="evenodd" />
+          </svg>Current Pursuit of B.E. at GCET JAMMU:</h2><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="icons ">
+            <path fill-rule="evenodd" d="M12.53 16.28a.75.75 0 01-1.06 0l-7.5-7.5a.75.75 0 011.06-1.06L12 14.69l6.97-6.97a.75.75 0 111.06 1.06l-7.5 7.5z" clip-rule="evenodd" />
+          </svg>
+        </div>
+          
+          <p class="answer active">Presently, I am pursuing my Bachelor's degree in Computer Engineering from the esteemed GCET JAMMU (Government College of Engineering and Technology). This phase of my education has been an exhilarating rollercoaster ride filled with challenges and countless learning opportunities. The curriculum at GCET JAMMU is designed to develop well-rounded professionals, emphasizing both theoretical knowledge and practical application.
+          
+          
+          Throughout my studies at GCET JAMMU, I have immersed myself in various subjects related to computer science, including programming languages, software development, and algorithm design.</p>
+          </div>
+
+          <div class="showbtn"><div class="show-more">
+            <h2><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="arr-right">
+           <path fill-rule="evenodd" d="M3.75 12a.75.75 0 01.75-.75h13.19l-5.47-5.47a.75.75 0 011.06-1.06l6.75 6.75a.75.75 0 010 1.06l-6.75 6.75a.75.75 0 11-1.06-1.06l5.47-5.47H4.5a.75.75 0 01-.75-.75z" clip-rule="evenodd" />
+           </svg>Looking Ahead:</h2><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="icons ">
+             <path fill-rule="evenodd" d="M12.53 16.28a.75.75 0 01-1.06 0l-7.5-7.5a.75.75 0 011.06-1.06L12 14.69l6.97-6.97a.75.75 0 111.06 1.06l-7.5 7.5z" clip-rule="evenodd" />
+            </svg>
+             </div>
+           <p class="answer active">As I near the completion of my Bachelor's degree, I am eagerly anticipating the next chapter of my educational journey. My education has equipped me with a strong foundation in computer science, preparing me for the challenges and advancements in the ever-evolving technology landscape. I am excited to apply my knowledge and skills in practical settings, contributing to innovative projects and making a positive impact in the field.</p>
+           </div>
+         </div>
+        </div>
+      </div>
+     
+      <div class="headline">“We generate fears while we do nothing. We overcome these fears by taking action.”</div>
+      <div class="table-container">
+        <div class="table-img"><img src="https://th.bing.com/th/id/OIP.9szl6TGLmVd1yAvLJbQsdQHaE4?w=263&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"  width="350"></div>
+        <div class="table">
+          <table>
+            <thead>
+              <tr>
+                <th>Education</th>
+                <th>INSTITUTION</th>
+                <th>YEAR</th>
+                <th>SCORE</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th>Graduation</th>
+                <th>GCET Jammu</th>
+                <th>2020-2024</th>
+                <th>8.9 CGPA</th>
+              </tr>
+              <tr>
+                <th>12th</th>
+                <th>ASN Higher Secondary</th>
+                <th>2019-2020</th>
+                <th>86%</th>
+              </tr>
+              <tr>
+                <th>10th</th>
+                <th>BSF Senior Secondary</th>
+                <th>2017-2018</th>
+                <th>80.2%</th>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <div class="hobbies-container">
+      <div class="section-heading education hobbies">
+        <h1>HOBBIES</h1>
+        <div class="hobbies-context">
+          <div class="showbtn"> 
+            <div class="show-more">
+        <h2 class="fix"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="arr-right">
+          <path fill-rule="evenodd" d="M3.75 12a.75.75 0 01.75-.75h13.19l-5.47-5.47a.75.75 0 011.06-1.06l6.75 6.75a.75.75 0 010 1.06l-6.75 6.75a.75.75 0 11-1.06-1.06l5.47-5.47H4.5a.75.75 0 01-.75-.75z" clip-rule="evenodd" />
+        </svg>
+        
+        Sketching: A Canvas for Imagination:</h2>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="icons ">
+          <path fill-rule="evenodd" d="M12.53 16.28a.75.75 0 01-1.06 0l-7.5-7.5a.75.75 0 011.06-1.06L12 14.69l6.97-6.97a.75.75 0 111.06 1.06l-7.5 7.5z" clip-rule="evenodd" />
+         </svg>
+        </div>
+         <p class="answer active">  For me, sketching is a form of creative expression that knows no bounds. With a pencil in hand and a blank canvas before me, I can bring my imagination to life. It is a therapeutic activity that enables me to relax, focus, and channel my artistic abilities.</p>
+        </div>
+         <div class="showbtn"> 
+          <div class="show-more">
+         <h2><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="arr-right">
+          <path fill-rule="evenodd" d="M3.75 12a.75.75 0 01.75-.75h13.19l-5.47-5.47a.75.75 0 011.06-1.06l6.75 6.75a.75.75 0 010 1.06l-6.75 6.75a.75.75 0 11-1.06-1.06l5.47-5.47H4.5a.75.75 0 01-.75-.75z" clip-rule="evenodd" />
+        </svg>Video Games: The Power of Virtual Adventures:</h2>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="icons ">
+          <path fill-rule="evenodd" d="M12.53 16.28a.75.75 0 01-1.06 0l-7.5-7.5a.75.75 0 011.06-1.06L12 14.69l6.97-6.97a.75.75 0 111.06 1.06l-7.5 7.5z" clip-rule="evenodd" />
+         </svg>
+        </div>
+          <p class="answer active">In the vast realm of video games, I find endless possibilities for exploration and excitement. Video games transport me to captivating virtual worlds, where I can embark on thrilling adventures, solve intricate puzzles, and immerse myself in captivating narratives.</p>
+        </div>
+          <div class="showbtn"> 
+            <div class="show-more">
+          <h2><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="arr-right">
+            <path fill-rule="evenodd" d="M3.75 12a.75.75 0 01.75-.75h13.19l-5.47-5.47a.75.75 0 011.06-1.06l6.75 6.75a.75.75 0 010 1.06l-6.75 6.75a.75.75 0 11-1.06-1.06l5.47-5.47H4.5a.75.75 0 01-.75-.75z" clip-rule="evenodd" />
+          </svg>Netflix: A Window into Captivating Stories:</h2>
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="icons ">
+            <path fill-rule="evenodd" d="M12.53 16.28a.75.75 0 01-1.06 0l-7.5-7.5a.75.75 0 011.06-1.06L12 14.69l6.97-6.97a.75.75 0 111.06 1.06l-7.5 7.5z" clip-rule="evenodd" />
+           </svg>
+          </div>
+          <p class="answer active">In the era of streaming platforms, Netflix has become my go-to source for captivating storytelling. With a wide array of genres and series, I can dive into thrilling mysteries, indulge in heartwarming dramas, or explore the depths of science fiction</p>
+        </div> 
+          <div class="showbtn"> 
+            <div class="show-more">
+          <h2><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="arr-right">
+            <path fill-rule="evenodd" d="M3.75 12a.75.75 0 01.75-.75h13.19l-5.47-5.47a.75.75 0 011.06-1.06l6.75 6.75a.75.75 0 010 1.06l-6.75 6.75a.75.75 0 11-1.06-1.06l5.47-5.47H4.5a.75.75 0 01-.75-.75z" clip-rule="evenodd" />
+          </svg>Football and Badminton: A Balance of Teamwork and Competition:</h2>
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="icons ">
+            <path fill-rule="evenodd" d="M12.53 16.28a.75.75 0 01-1.06 0l-7.5-7.5a.75.75 0 011.06-1.06L12 14.69l6.97-6.97a.75.75 0 111.06 1.06l-7.5 7.5z" clip-rule="evenodd" />
+           </svg>
+          </div>
+          <p class="answer active">Sports hold a special place in my heart, and two of my favorites are football and badminton. Football, with its dynamic gameplay and strategic maneuvers, fosters teamwork and camaraderie.On the other hand, badminton challenges my agility, reflexes, and hand-eye coordination. </p>
+         </div>
+        </div>
+    </div>
+      
+        <div class="hobbies-img">
+          <h1>MOMENTS</h1>
+        <img id="fir"src="img8.jpg" width=300px height="220px" alt="">
+        <img id="sec"src="img9.jpg"  width=300px height="220px" alt="">
+       </div>
+      </div>
+    </div>
+      </div>
+
+    </section>
+
+
+<div id="map"></div>
+    <footer>
+       <div class="footer-container" id="CONTACT">
+        <div><h1>CONTACT ME</h1>
+          <div class="footer-img">
+             <div class="skills"> 
+              <p>SKILLS</br></br>C</br>C++</br>JAVA</br>HTML</br>CSS</br>JS</br>jQuery
+              </p>
+              <p>COURSES</br></br>Core Java</br>HTML and CSS</p>
+              <p>INTERNSHIPS</br></br>Summer School Intern at IIT Jammu</p>
+            </div>
+            <!-- <div class="testimonial">"hi i'm saksham summer school intern"</div> -->
+            <!-- <div><img src="img7.jpg" width="180" height="160" alt=""></div> -->
+            <div class="map">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1678.150197857688!2d74.84110604210706!3d32.73121329715267!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391e84f64b2d8373%3A0xa201d253be8ad57f!2sSuraj%20Nagar%2C%20Jammu%2C%20180002!5e0!3m2!1sen!2sin!4v1687965531889!5m2!1sen!2sin" width="500" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+         </div>
+        </div>
+
+        <div class="inner-conatiner">
+          <p>@saksham347.  All Rights Reserved</p>
+          <br>
+          <!-- <p id="demo"></p> -->
+          <div class="icons-footer">
+            <a href="https://www.instagram.com/__sakshm__/"><img src="instagram.png" alt="instagram"></a>
+            <a href="#"><img src="whatsapp.png" alt="whatsapp"></a>
+            <a href="#"> <img src="twitter.png" alt="twitter"></a>
+            <a href="https://www.linkedin.com/in/saksham-basson-42665827b/"><img src="linkedin.png" alt="linkedin"></a>
+            <a href="#"><img src="facebook.png" alt="facebook"></a>
+          </div>
+        </div>
+       </div>
+       
+    </footer>
+
+    <script src="index.js">
+    
+    </script>
+  </body>
+</html>
